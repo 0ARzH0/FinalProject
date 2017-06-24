@@ -10,7 +10,7 @@ correr la primera migracion, pero antes modificar el archivo
 <h3>Dato</h3>
 <ul>
 	<li>para corregir el problema de utilizar usuario diferente a root primero se modifica en config/database.php, y tambien en el .env</li>
-	<li>para solucionar el problema de los strings se modifica en App\Providers\AppServiceProvider.php</li>
+	<li>para solucionar el problema de los strings se modifica en App\Providers\AppServiceProvider.php</li><br>
 	<code>
 	use Illuminate\Support\ServiceProvider;
 	use Illuminate\Support\Facades\Schema;
@@ -34,5 +34,6 @@ correr la primera migracion, pero antes modificar el archivo
 	    public function register(){
 	        //
 	    }
-	}</code>
+	}
 </ul>
+<br>
